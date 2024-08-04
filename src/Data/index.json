@@ -31,63 +31,63 @@
             "id": "1",
             "src": "/img/html.png",
             "title": "Portfolio",
-            "description": "structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "A personal portfolio website, serving as a centralized space to showcase my projects, skills, and contact information",
             "link": "view in github"
         },
         {
             "id": "2",
             "src": "../img/js.png",
             "title": "Linkdin-clone",
-            "description": "Logical structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "Built a cross-platform LinkedIn clone application featuring multiple functionalities of Linkedin app",
             "link": "view in github"
         },
         {
             "id": "3",
             "src": "./img/CSS.png",
             "title": "Old Portfolio",
-            "description": "styling structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "Created Using HTML, CSS, JS", 
             "link": "view in github"
         },
         {
             "id": "4",
             "src": "./img/C++.png",
             "title": "Expence Ease",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "Developed a web application for tracking and managing expenses",
             "link": "view in github"
         },
         {
             "id": "5",
             "src": "./img/react.png",
             "title": "Currency Converter",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "A WebApp to convert Currency to an another using API",
             "link": "view in github"
         },
         {
             "id": "6",
             "src": "./img/mysql.png",
             "title": "News MOnkey",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "A News App shows daily updated headlines and articles",
             "link": "view in github"
         },
         {
             "id": "7",
             "src": "./img/mysql.png",
             "title": "RPS-Game",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "Rock-Paper-Scissior Game",
             "link": "view in github"
         },
         {
             "id": "8",
             "src": "./img/mysql.png",
             "title": "TextUtils",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "A multi Functional Text manipulation Web application",
             "link": "view in github"
         },
         {
             "id": "9",
             "src": "./img/mysql.png",
             "title": "Fresh Bite",
-            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "description": "A e-commerce site for distributing food goods and convenience foods",
             "link": "view in github"
         }
     ]

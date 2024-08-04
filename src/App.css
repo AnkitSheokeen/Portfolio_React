@@ -406,72 +406,76 @@ h3{
 /* skills section */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 106.667px;
+  padding: 20px;
+  gap: 40px;
 }
-.skills--section--heading{
+
+.skills--section--heading {
   color: var(--heading-color);
-  font-size: 64px;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 77px;
+  line-height: 3rem;
+
 }
+
 .skills--section--container {
   display: grid;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 42.3px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  /* Adjust grid layout based on screen size */
 }
+
 .skills--section--card {
   display: flex;
-  padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  border-radius: 10.6px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
   background-color: #bb7e8c78;
-  min-height: 250px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+  height: 100%; /* Ensure cards stretch to fit container */
 }
+
 .skills--section--card:hover {
   border-bottom: 4px solid #009688;
-}
-.skills--section--card:hover ,
-.skills--section--discription {
   color: var(--darkblue);
 }
+
 .skills--section--img {
   display: flex;
-  padding: 13.3px;
   justify-content: center;
   align-items: center;
-  gap: 13.3px;
-  border-radius: 10.6px;
+  padding: 10px;
+  border-radius: 10px;
   background: #ffffff;
-  box-shadow: 0 0 16px 0 rgba(0, 0,0, 0.1);
+  max-width: 100%;
+  /* Ensures the image does not overflow */
 }
+
+.skills--section--img img {
+  max-width: 100%;
+  height: auto;
+}
+
 .skills--section--card--content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
+  text-align: center;
 }
+
 .skills--section--title {
   color: var(--heading-color);
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 2rem;
 }
+
 .skills--section--description {
   color: var(--back);
-  font-size: 21.3px;
-  font-style: normal;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 1.5rem;
 }
 /* skills size end */
 
@@ -610,7 +614,7 @@ h3{
 
 
 /* project */
-.project--section{
+/* .project--section{
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
@@ -677,6 +681,95 @@ h3{
 }
 .project--section--card:hover path {
   stroke: #00eaff;
+} */
+
+.project--section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 50px;
+  align-items: center; /* Center align items */
+}
+
+.project--container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.project--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  gap: 20px;
+  width: 100%;
+}
+
+.project--section--container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 80px;
+  width: 100%;
+  /* Ensure cards fit into the grid container and have uniform sizing */
+}
+
+.project--section--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Space between content and image */
+  background: #ffffff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  height: 100%; /* Ensure card stretches to fit the grid cell */
+}
+
+.project--section--card:hover {
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.project--section--img {
+  border-radius: 8px;
+  width: 100%;
+  /* Ensure image covers the card area */
+}
+
+.project--section--img > img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.project--section--card--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content */
+  padding: 20px;
+  gap: 20px;
+  text-align: center; /* Center text */
+}
+
+.project--section--title {
+  color: var(--heading-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.project--link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.project--link:hover {
+  color: var(--primary);
 }
 /* Project en/ */
 
@@ -974,8 +1067,8 @@ button:hover {
 
 @media (max-width: 768px) {
   .input-group {
-    flex-direction: column; /* Stack fields vertically on small screens */
-    gap: 10px; /* Adjust gap for small screens */
+    flex-direction: column;
+    gap: 10px; 
   }
 }
 
@@ -989,16 +1082,16 @@ button:hover {
   }
 
   .form-group {
-    min-width: 100%; /* Full width on very small screens */
+    min-width: 100%;
   }
 
   .form-group input, .form-group textarea {
-    font-size: 0.9em; /* Adjust font size for small screens */
+    font-size: 0.9em;
   }
 
   button {
     padding: 8px 16px;
-    font-size: 0.9em; /* Adjust button size for small screens */
+    font-size: 0.9em; 
   }
 }
 
@@ -1011,7 +1104,43 @@ button:hover {
     margin: 10px;
   }
 
-  
+  .skills--section--heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .skills--section--title {
+    font-size: 1.25rem;
+  }
+
+  .skills--section--description {
+    font-size: 0.875rem;
+  }
+
+  .skills--section--container {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .skills--section--card {
+    padding: 15px;
+    /* Adjust padding for smaller screens */
+  }  
+  .project--section {
+    padding: 20px 10px;
+  }
+
+  .project--section--title {
+    font-size: 1rem;
+  }
+
+  .project--section--card--content {
+    padding: 10px;
+  }
+
+  .project--link {
+    font-size: 0.875rem;
+    padding-bottom: 8px;
+  }
 }
 
 @media (max-width: 480px) {
