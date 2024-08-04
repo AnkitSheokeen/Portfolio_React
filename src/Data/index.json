@@ -1,0 +1,40 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "/img/html.png",
+            "title": "frontend",
+            "description": "structure"
+        },
+        {
+            "id": "2",
+            "src": "/img/js.png",
+            "title": "Back-End",
+            "description": "Logical"
+        },
+        {
+            "id": "3",
+            "src": "./img/CSS.png",
+            "title": "UI/UX degine",
+            "description": "styling"
+        },
+        {
+            "id": "4",
+            "src": "./img/C++.png",
+            "title": "language",
+            "description": "programming languages"
+        },
+        {
+            "id": "5",
+            "src": "./img/react.png",
+            "title": "language",
+            "description": "programming languages"
+        },
+        {
+            "id": "6",
+            "src": "./img/mysql.png",
+            "title": "language",
+            "description": "programming languages"
+        }
+    ]
+}
