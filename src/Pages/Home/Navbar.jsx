@@ -60,45 +60,45 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
+            <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyProjects"
+                to="Education"
                 className="navbar--content"
               >
-                MyProjects
+                Education
               </Link>
             </li>
             <li>
-              <Link
+            <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MySkills"
                 className="navbar--content"
               >
-                About Me
+                MySkills
               </Link>
             </li>
             <li>
-              <Link
+            <Link
                 onClick={closeMenu}
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="testimonial"
+                to="Myprojects"
                 className="navbar--content"
               >
-                Testimonials
+                Myprojects
               </Link>
             </li>
           </ul>
@@ -110,7 +110,7 @@ function Navbar() {
           smooth={true}
           offset={-70}
           duration={500}
-          to="Contact"
+          to="ContactME"
           className="btn btn-outline-primary"
         >
           Contact Me
