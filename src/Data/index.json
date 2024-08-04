@@ -2,39 +2,94 @@
     "skills": [
         {
             "id": "1",
-            "src": "/img/html.png",
-            "title": "frontend",
-            "description": "structure"
+            "src": "../img/html.png",
+            "title": "Languages",
+            "description": "C, C++, Python, JavaScript"
         },
         {
             "id": "2",
-            "src": "/img/js.png",
-            "title": "Back-End",
-            "description": "Logical"
+            "src": "../img/js.png",
+            "title": "Web-Development",
+            "description": "HTML, CSS, React JS, Bootstrap"
         },
         {
             "id": "3",
             "src": "./img/CSS.png",
-            "title": "UI/UX degine",
-            "description": "styling"
+            "title": "Database Managment",
+            "description": "MySQL, MongoDB"
         },
         {
             "id": "4",
             "src": "./img/C++.png",
-            "title": "language",
-            "description": "programming languages"
+            "title": "Version Control",
+            "description": "Git GitHub"
+        }
+    ],
+
+    "project": [
+        {
+            "id": "1",
+            "src": "/img/html.png",
+            "title": "Portfolio",
+            "description": "structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "2",
+            "src": "../img/js.png",
+            "title": "Linkdin-clone",
+            "description": "Logical structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "3",
+            "src": "./img/CSS.png",
+            "title": "Old Portfolio",
+            "description": "styling structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "4",
+            "src": "./img/C++.png",
+            "title": "Expence Ease",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
         },
         {
             "id": "5",
             "src": "./img/react.png",
-            "title": "language",
-            "description": "programming languages"
+            "title": "Currency Converter",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
         },
         {
             "id": "6",
             "src": "./img/mysql.png",
-            "title": "language",
-            "description": "programming languages"
+            "title": "News MOnkey",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "7",
+            "src": "./img/mysql.png",
+            "title": "RPS-Game",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "8",
+            "src": "./img/mysql.png",
+            "title": "TextUtils",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
+        },
+        {
+            "id": "9",
+            "src": "./img/mysql.png",
+            "title": "Fresh Bite",
+            "description": "programming languages structure loremsdsfnkjd safnkjdasnf safbjkdanfgkjd sdanfjkdasbf sfadbfkdabfjkdab",
+            "link": "view in github"
         }
     ]
 }
+

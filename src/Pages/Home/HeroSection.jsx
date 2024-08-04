@@ -1,4 +1,14 @@
+import Resume from '../img/Ankit_Resume.pdf'
+
 export default function HeroSection() {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = Resume;
+        link.download = 'Ankit_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return(
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
@@ -10,11 +20,13 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section--description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        <br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        I thrive on learning and bringing new ideas.
+                        <br /> 
                     </p>
                 </div>
-                <button className="btn btn-primary">Get in Touch</button>
+                <button onClick={handleDownload} className="btn btn-primary">
+                    Resume
+                </button>
             </div>
             <div className="hero--section--img">
                 <div>  
