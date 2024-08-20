@@ -4,25 +4,25 @@
             "id": "1",
             "src": "../img/html.png",
             "title": "Languages",
-            "description": "C, C++, Python, JavaScript"
+            "description": "C , C++ , Python , JavaScript"
         },
         {
             "id": "2",
             "src": "../img/js.png",
             "title": "Web-Development",
-            "description": "HTML, CSS, React JS, Bootstrap"
+            "description": "HTML , CSS , React JS , Bootstrap"
         },
         {
             "id": "3",
             "src": "./img/CSS.png",
             "title": "Database Managment",
-            "description": "MySQL, MongoDB"
+            "description": "MySQL , MongoDB"
         },
         {
             "id": "4",
             "src": "./img/C++.png",
             "title": "Version Control",
-            "description": "Git GitHub"
+            "description": "Git , GitHub"
         }
     ],
 
