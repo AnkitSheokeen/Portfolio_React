@@ -159,11 +159,12 @@ h3{
   align-items: center;
   padding: 15px 85.333px;
   background: var(--white);
-  box-shadow: 0px 5.333px 80px 0 rgba(0, 0,0, 0.1);
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0,0, 0.4);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 200;
 }
 /* .navbar--items {
   display: flex;
@@ -410,7 +411,7 @@ h3{
 .skills--section {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 149.33px 85.33px;
   gap: 40px;
 }
 
@@ -432,7 +433,7 @@ h3{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #009687b1;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
@@ -441,7 +442,7 @@ h3{
 }
 
 .skills--section--card:hover {
-  border-bottom: 4px solid #bb7e8c78;
+  border-bottom: 2px solid #bb7e8c78;
   color: var(--darkblue);
 }
 
@@ -454,14 +455,12 @@ h3{
   max-width: 100%;
   gap: 15px;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.4);
-
 }
 
 .skills--section--img img {
   width: 50px;
   height: 50px;
   border-radius: 10%;
-  background-color: ;
 }
 
 .skills--section--card--content {
@@ -470,7 +469,7 @@ h3{
 
 .skills--section--title {
   color: var(--heading-color);
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 700;
   line-height: 1rem;
 }
@@ -737,24 +736,54 @@ h3{
 }
 
 .project--section--img {
+  position: relative;
   border-radius: 8px;
   width: 100%;
-  /* Ensure image covers the card area */
+  height: 150px;
+  overflow: hidden;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 .project--section--img > img {
   width: 100%;
   height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
 }
 
 .project--section--card--content {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center align content */
-  padding: 20px;
+  padding: 5px;
   gap: 20px;
   text-align: center; /* Center text */
 }
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0; 
+  transition: opacity 0.6s ease;
+}
+
+.project--section--img:hover .overlay-text {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.59);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
 
 .project--section--title {
   color: var(--heading-color);
@@ -765,11 +794,18 @@ h3{
 .project--link {
   text-decoration: none;
   display: flex;
-  gap: 16px;
-  border-bottom: 2px solid var(--primary);
-  padding-bottom: 10px;
+  gap: 16px; 
+  padding-bottom: 5px;
   font-weight: 600;
   color: var(--heading-color);
+  a{
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid var(--primary);
+    svg{
+      margin-left: 8px;
+    }
+  }
 }
 
 .project--link:hover {
@@ -1007,6 +1043,7 @@ button:hover {
   position: absolute;
   top: 25px;
   right: 25px;
+  
 }
 
 .nav__hamburger__line {
@@ -1144,6 +1181,10 @@ button:hover {
   .project--link {
     font-size: 0.875rem;
     padding-bottom: 8px;
+  }
+
+  .btn-github{
+    margin-bottom: 20px;
   }
 }
 
