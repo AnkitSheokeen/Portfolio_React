@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import navphoto from '../img/nav-logo.svg'
+import navphoto from '../img/Ankit-logo.png'
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -35,7 +35,7 @@ function Navbar() {
   
     return (
       <nav className={`navbar ${navActive ? "active" : ""}`}>
-        <div>
+        <div className="logo">
           <img src={navphoto} alt="Logoipsum" />
         </div>
         <button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav} >
