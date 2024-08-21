@@ -945,6 +945,18 @@ button:hover {
     font-size: 28px;
     line-height: 40px;
   }
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -968,6 +980,18 @@ button:hover {
   .skills--section--description {
     font-size: 17.333px;
     line-height: 27px;
+  }
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
   }
 }
 
@@ -1046,6 +1070,19 @@ button:hover {
   .divider {
     margin: 20px;
   }
+  
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
 }
 
 /* Hamburger menu  */
@@ -1123,6 +1160,19 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
   .input-group {
     flex-direction: column;
     gap: 10px; 
@@ -1130,12 +1180,22 @@ button:hover {
   .navbar{
     box-shadow: none;
   }
-  .logo{
-    height: 60px;
-  }
 }
 
 @media (max-width: 480px) {
+  
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
   .contact-container h1 {
     font-size: 1.5em;
   }
@@ -1158,6 +1218,19 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
   .hero--section--img {
       display: none;
   }
@@ -1210,6 +1283,19 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+  
+  logo {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
   .hero--section {
     margin-top: 100px;
     padding: 5px;
