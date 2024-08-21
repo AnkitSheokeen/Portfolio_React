@@ -981,18 +981,6 @@ button:hover {
     font-size: 17.333px;
     line-height: 27px;
   }
-  logo {
-    height: 75px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1071,18 +1059,7 @@ button:hover {
     margin: 20px;
   }
   
-  logo {
-    height: 75px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
+
 }
 
 /* Hamburger menu  */
@@ -1161,18 +1138,6 @@ button:hover {
 
 @media (max-width: 768px) {
   
-  logo {
-    height: 75px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
   .input-group {
     flex-direction: column;
     gap: 10px; 
@@ -1184,18 +1149,6 @@ button:hover {
 
 @media (max-width: 480px) {
   
-  logo {
-    height: 75px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
   .contact-container h1 {
     font-size: 1.5em;
   }
@@ -1220,7 +1173,7 @@ button:hover {
 @media (max-width: 768px) {
   
   logo {
-    height: 75px;
+    height: 10px;
     width: auto;
     display: flex;
     align-items: center;
@@ -1285,7 +1238,7 @@ button:hover {
 @media (max-width: 480px) {
   
   logo {
-    height: 75px;
+    height: 10px;
     width: auto;
     display: flex;
     align-items: center;
