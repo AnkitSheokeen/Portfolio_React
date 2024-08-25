@@ -13,16 +13,11 @@ export default function HeroSection() {
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p className="section--title">Hey there<span class="wave-hand">👋🏻</span>,I'm Ankit</p>
+                    <p className="section--title">Hello, I'm Ankit <span class="wave-hand">👋🏻</span></p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">FrontEnd</span>{" "}
-                        <br />
-                        Developer
+                        <span className="hero--section--title--color">Web</span>{" "}
+                        Developer <br/><span className='slogan'>Specialize in building responsive and user-friendly websites and applications.</span>
                     </h1>
-                    <p className="hero--section--description">
-                        I thrive on learning and bringing new ideas.
-                        <br /> 
-                    </p>
                 </div>
                 <button onClick={handleDownload} className="btn btn-primary">
                     Resume
