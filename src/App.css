@@ -171,7 +171,7 @@ h3{
 }
 
 .logo{
-  height: 75px;
+  height: 60px;
   margin-right: 150px;
 }
 
@@ -210,7 +210,7 @@ h3{
 @media (max-width: 1200px){
  
   .logo{
-    margin-right: 75px;
+    margin-right: 50px;
   }
   
   .navbar--list > ul {
@@ -250,7 +250,6 @@ h3{
     justify-content: left;
   }
   .logo{
-
     margin-left: 20px;
   }
   .nav__hamburger {
@@ -280,7 +279,7 @@ h3{
     width: 100%;
     padding: 0px;
     margin: 0px;
-    gap: 15px;
+    gap: 20px;
     z-index: -100;
   }
   .navbar--list ul li {
@@ -861,23 +860,25 @@ h3{
 /* Contact me start */
 #contact {
   text-align: center;
-  padding: 20px 0; /* Add padding to the top and bottom */
+  padding: 20px 0; 
 }
 
 .contact-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto; /* Center the section horizontally */
+  margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
 }
 
 .text {
   margin-top: 10%;
+  padding-bottom: 0px;
+  height: 150px
 }
 
 .contact-container h1 {
@@ -894,16 +895,16 @@ h3{
 
 .input-group {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap on small screens */
-  gap: 20px; /* Adjust gap between the fields */
-  justify-content: center; /* Center the fields horizontally */
-  margin-bottom: 20px; /* Space between input-group and message textarea */
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center;
+  margin-bottom: 20px; 
 }
 
 .form-group {
-  flex: 1; /* Make sure each form-group takes up equal space */
-  min-width: 200px; /* Set a minimum width for each form-group */
-  text-align: left; /* Align labels and inputs to the left */
+  flex: 1; 
+  min-width: 200px; 
+  text-align: left;
 }
 
 .form-group label {
@@ -952,6 +953,21 @@ button:hover {
   background-color: #009688;
   color: white;
 }
+
+@media (max-width:510px){
+  .text{
+    font-size: 12px;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #009688;
+    border-radius: 4px;
+    background: none;
+    font-size: 1em;
+    color: #333;
+  }
+}
 /* contact end */
 
 /* footer */
@@ -964,270 +980,5 @@ button:hover {
   bottom: 0;
 }
 
+
 /* Fotter en/ */
-
-/* Responsive */
-/* @media only screen and (max-width: 1800px) {
-  .hero--section--title {
-    font-size: 68px;
-    line-height: 70px;
-    margin: 10px;
-  }
-  .skills--section--title {
-    font-size: 28px;
-    line-height: 40px;
-  }
-  logo {
-    height: 10px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .skills--section--heading {
-    font-size: 54px;
-    line-height: 70px;
-  }
-  .skills--section--container {
-    gap: 16px;
-  }
-  .skills--section--card {
-    gap: 28px;
-  }
-  .skills--section--card--content {
-    gap: 20px;
-  }
-  .skills--section--title {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  .skills--section--description {
-    font-size: 17.333px;
-    line-height: 27px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .btn-outline-primary {
-    display: none;
-  }
-  .hero--section {
-    display: flex;
-    flex-direction: column-reverse;
-    padding-bottom: 70px;
-    
-  }
-  .hero--section--title,
-  .hero--section-description,
-  .footer--content {
-    text-align: center;
-  }
-  .skills--section--container,
-  .about--section,
-  .project--section--container,
-  .project--container-box,
-  .footer--link--container,
-  .footer--items > ul,
-  .footer--content--container {
-    display: flex;
-    flex-direction: column;
-  }
-  .skills--section,
-  .project--container,
-  .hero--section--content,
-  .hero--section--content--box {
-    align-items: center;
-  }
-  .project--container-box {
-    gap: 30px;
-  }
-  .skills--section,
-  .testimonial--section,
-  .contact--section,
-  .footer--container {
-    gap: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .about--section {
-    gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .testimonial--section--card {
-    padding: 25px;
-  }
-  .hero--section--title,
-  .skills--section--heading,
-  .sections--heading {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  .hero--section--content--box {
-    gap: 10px;
-  }
-  .contact--form--container {
-    width: 100%;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .footer--social--icon > ul,
-  .footer--items > ul {
-    padding: 0;
-    align-items: center;
-  }
-  .divider {
-    margin: 20px;
-  }
-  
-
-}
-
-@media (max-width: 768px) {
-  
-  .input-group {
-    flex-direction: column;
-    gap: 10px; 
-  }
-  .navbar{
-    box-shadow: none;
-  }
-}
-
-@media (max-width: 480px) {
-  
-  .contact-container h1 {
-    font-size: 1.5em;
-  }
-  .contact-container p {
-    font-size: 0.9em;
-  }
-
-  .form-group {
-    min-width: 100%;
-  }
-
-  .form-group input, .form-group textarea {
-    font-size: 0.9em;
-  }
-
-  button {
-    padding: 8px 16px;
-    font-size: 0.9em; 
-  }
-}
-
-@media (max-width: 768px) {
-  
-  logo {
-    height: 10px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
-  .hero--section--img {
-      display: none;
-  }
-
-  .hero--section{
-    margin: 10px;
-  }
-
-  .skills--section--heading {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-
-  .skills--section--title {
-    font-size: 1.25rem;
-  }
-
-  .skills--section--description {
-    font-size: 0.875rem;
-  }
-
-  .skills--section--container {
-    grid-template-columns: 1fr;
-  }
-
-  .skills--section--card {
-    padding: 15px;
-
-  }  
-  .project--section {
-    padding: 20px 10px;
-  }
-
-  .project--section--title {
-    font-size: 1rem;
-  }
-
-  .project--section--card--content {
-    padding: 10px;
-  }
-
-  .project--link {
-    font-size: 0.875rem;
-    padding-bottom: 8px;
-  }
-
-  .btn-github{
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  
-  logo {
-    height: 10px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-    }
-  }
-  .hero--section {
-    margin-top: 100px;
-    padding: 5px;
-  }
-  
-  .hero--section--description {
-    font-size: 12px;
-  }
-
-  .skills--section{
-    padding: 10px;
-  }
-  .skills--section--description{
-    font-size: 15px;
-  }
-  
-  .project--section {
-    padding: 10px;
-    gap: 10px;
-  }
-
-
-}
- */
