@@ -845,13 +845,13 @@ h3{
     padding: 50px 30px;
     gap: 10px;
   }
-  .section--heading{
-    font-size: 32px;
-    padding-bottom: 0px;
-    line-height: 32px;
+  .project--section--container {
+    gap: 30px;
   }
   .section--heading{
-    padding-bottom: 20px ;
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 32px;
   }
 }
 

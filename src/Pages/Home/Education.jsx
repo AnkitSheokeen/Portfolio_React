@@ -9,14 +9,14 @@ export default function Education() {
             <div className='education--container--box'>
                 
                 <div className="education--section--card">
-                    <div class="education-box-in">
-                        <span class="date">2022-2024</span>
+                    <div className="education-box-in">
+                        <span className="date">2022-2024</span>
                             <h2>Master of Technology</h2>
-                        <span class="university">Guru gobind Singh Indraprastha University</span>
+                        <span className="university">Guru gobind Singh Indraprastha University</span>
                     </div>
                 </div>
                 <div className="education--section--card">
-                        <div class="education-box-in">
+                        <div className="education-box-in">
                             <span>2022-2024</span>
                                 <h2>Bachalor of Technology</h2>
                             <span>PDM University</span>

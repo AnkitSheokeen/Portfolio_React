@@ -9,7 +9,7 @@ export default function Education() {
             <div className='education--container--box'>
                 
                 <div className="education--section--card">
-                        <div class="education-box-in">
+                        <div className="education-box-in">
                             <span>August 2024</span>
                                 <h2>Frontend Developer Intern</h2>
                             <span>DigiGlobe Solutions</span>
@@ -17,10 +17,10 @@ export default function Education() {
                 </div>
                 
                 <div className="education--section--card">
-                    <div class="education-box-in">
-                        <span class="date">Feburary 2021 - August 2021</span>
+                    <div className="education-box-in">
+                        <span className="date">Feburary 2021 - August 2021</span>
                             <h2>Digital Marketing Intern</h2>
-                        <span class="university">IIFEM</span>
+                        <span className="university">IIFEM</span>
                     </div>
                 </div>
 

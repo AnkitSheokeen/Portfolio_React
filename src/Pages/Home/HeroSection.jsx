@@ -13,7 +13,7 @@ export default function HeroSection() {
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p>Hello, I'm Ankit <span class="wave-hand">👋🏻</span></p>
+                    <p>Hello, I'm Ankit <span className="wave-hand">👋🏻</span></p>
                     <h1 className="hero--section--title">
                         <span className="hero--section--title--color">Web</span>{" "}
                         Developer <br/><span className='slogan'>Specialize in building responsive and user-friendly websites and applications.</span>

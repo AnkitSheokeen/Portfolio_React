@@ -53,7 +53,7 @@ function Navbar() {
               <li>
                 <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -67,7 +67,7 @@ function Navbar() {
               <li>
               <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -81,7 +81,7 @@ function Navbar() {
               <li>
               <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -95,7 +95,7 @@ function Navbar() {
               <li>
               <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -109,7 +109,7 @@ function Navbar() {
               <li>
               <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -123,7 +123,7 @@ function Navbar() {
               <li>
                 <Link
                   onClick={closeMenu}
-                  activeClass="navbar--active-content"
+                  activeclassName="navbar--active-content"
                   spy={true}
                   smooth={true}
                   offset={-70}
