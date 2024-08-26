@@ -21,7 +21,7 @@ export default function MySkills() {
         </div>
         <div className="skills--section--container">
           
-                <div className='skills--section--card'>
+                <div className='skills--section--card animate-card'>
                     <div className="skills--section--img">
                         <img src={Cpp} alt="skill chain" />
                         <img src={Cpp} alt="skill chain" />
@@ -33,7 +33,7 @@ export default function MySkills() {
                         <p className="skills--section--description">Programming Languages</p>
                     </div>
                 </div>
-                <div className='skills--section--card'>
+                <div className='skills--section--card animate-card'>
                     <div className="skills--section--img">
                         <img src={html} alt="skill chain" />
                         <img src={css} alt="skill chain" />
@@ -41,11 +41,11 @@ export default function MySkills() {
                         <img src={react} alt="skill chain" />
                     </div>
                     <div className="skill--section--card--content">
-                        <h3 className="skills-section--title">HTML , CSS , React JS , Bootstrap</h3>
+                        <h3 className="skills-section--title">HTML , CSS , ReactJS , Bootstrap</h3>
                         <p className="skills--section--description">Web-Development</p>
                     </div>
                 </div>
-                <div className='skills--section--card'>
+                <div className='skills--section--card animate-card'>
                     <div className="skills--section--img">
                         <img src={mysql} alt="skill chain" />
                         <img src={mongodb} alt="skill chain" />
@@ -55,7 +55,7 @@ export default function MySkills() {
                         <p className="skills--section--description">Database Managment</p>
                     </div>
                 </div>
-                <div className='skills--section--card'>
+                <div className='skills--section--card animate-card'>
                     <div className="skills--section--img">
                         <img src={git} alt="skill chain" />
                         <img src={github} alt="skill chain" />
@@ -65,7 +65,6 @@ export default function MySkills() {
                         <p className="skills--section--description">Version Control</p>
                     </div>
                 </div>
-       
         </div>
     </section>
   )

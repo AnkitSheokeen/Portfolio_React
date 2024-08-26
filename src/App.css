@@ -343,6 +343,10 @@ h3{
   margin-top: 21.33px;
 }
 
+section--title{
+  font-size: 20px !important;
+}
+
 .hero--section--title {
   color: var(--heading-color);
   font-size: 44.667px !important;
@@ -412,6 +416,7 @@ h3{
   }
 }
 @media (max-width: 480px){
+
   .hero--section {
     margin-top: 150px;
     padding: 5px;
@@ -556,7 +561,7 @@ h3{
   .education--section--card h2 {
     font-size: 19px;
     padding: 0px;
-    line-height: 25px;
+    line-height: 35px;
   }
   
   .education--section--card span {
@@ -569,290 +574,152 @@ h3{
 
 
 /* skills section */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .skills--section {
-  display: flex;
-  flex-direction: column;
   padding: 149.33px 85.33px;
-  gap: 40px;
+  /* background-color: #f5f5f5; */
+}
+
+.portfolio--container {
+  margin-bottom: 50px;
+}
+
+.section--title {
+  font-size: 38px;
+  color: #009687;
+  line-height: 48px;
 }
 
 .skills--section--heading {
-  color: var(--heading-color);
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1rem;
+  font-size: 64px;
+  margin-bottom: 20px;
 }
 
 .skills--section--container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   gap: 20px;
+  justify-content: center;
 }
 
 .skills--section--card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+  background-color: #fff;
   border-radius: 10px;
-  background-color: #009687b1;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
-  transition: border-bottom 0.3s ease, color 0.3s ease;
-  height: 100%; /* Ensure cards stretch to fit container */
+  box-shadow: 0 25px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding: 20px;
+  opacity: 0; 
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.animate-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.animate-card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.animate-card:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.animate-card:nth-child(4) {
+  animation-delay: 0.7s;
 }
 
 .skills--section--card:hover {
-  border-bottom: 2px solid #bb7e8c78;
-  color: var(--darkblue);
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .skills--section--img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-radius: 10px;
-  max-width: 100%;
-  gap: 15px;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.4);
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .skills--section--img img {
-  width: 50px;
-  height: 50px;
-  border-radius: 10%;
+  width: 40px;
+  height: 40px;
 }
 
-.skills--section--card--content {
-  text-align: center;
+.skill--section--card--content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.skills--section--title {
-  color: var(--heading-color);
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1rem;
+.skill--section--card--content p {
+  font-size: 16px;
+  color: #777;
+}
+@media (max-width:1300px){
+  .section--title{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .skills--section--heading {
+    font-size: 46px;
+  }
+
+}
+@media (max-width: 510px) {
+  .skills--section {
+    padding: 150px 30px;
+   
+  }
+  .portfolio--container {
+    position: relative;
+  }
+  .section--title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 38px;
+    color: #000;
+  }
+  .skills--section--heading{
+    display: none;
+  }
+  .skill--section--card--content h3 {
+    font-size: 18px;
+  }
 }
 
-.skills--section--description {
-  color: var(--white);
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-}
 /* skills size end */
 
 /* Experience */
 
-.experience--section {
-  display: flex;
-  padding: 149.33px 85.33px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 50.667px;
-}
-.experience--title{
-  color: var(--heading-color);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
-}
-
-.experience--container--box {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0px 50px 0px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-
-}
-
-.experience--box {
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1 0 0;
-  border-radius: 10.6px;
-  background-color: #009687b1;
-  min-height: 250px;
-}
-.experience--box h2 {
-  color: var(--white);
-  margin: 5px;
-
-}
-.experience--box span {
-  color: var(--back);
-  font-weight: 700;
-  font-size: 24px;
-}
-.experience--animation{
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 1200px) {
-  .experience--title {
-    font-size: 48px;
-    line-height: 58px;
-  }
-  
-  .experience--container--box {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  
-  .experience--box {
-    min-height: 200px;
-  }
-  
-  .experience--box h2 {
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 768px) {
-  .experience--section {
-    padding: 100px 20px;
-    align-items: center;
-  }
-  
-  .experience--title {
-    font-size: 36px;
-    line-height: 44px;
-  }
-  
-  .experience--container--box {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
-  .experience--box {
-    width: 100%;
-    min-height: 150px;
-  }
-  
-  .experience--box h2 {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 480px) {
-  .experience--section {
-    padding: 80px 10px;
-  }
-  
-  .experience--title {
-    font-size: 30px;
-    line-height: 34px;
-  }
-  
-  .experience--container--box {
-    gap: 16px;
-    padding: 5px;
-  }
-  
-  .experience--box {
-    padding: 16px;
-  }
-  
-  .experience--box h2 {
-    font-size: 30px;
-  }
-  .experience--box span {
-    font-size: 15px;
-  }
-  
-  .experience--animation {
-    display: none;
-  }
-}
-
+/* Resuse of the Education Section */
 
 /* Experience end */
 
 
 /* project */
-/* .project--section{
-  display: flex;
-  padding: 112px 85px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-}
-.project--container-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.project--container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 21.3px;
-}
-.project--section--container{
-  display: grid;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 42.6px;
-  width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-}
-.project--section--img {
-  border-radius: 8px;
-  width: 100%;
-}
-.project--section--img >img {
-  width: 100%;
-}
-.project--section--card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  background: #ffffff;
-  box-shadow: 0 0 32px 0 rgba(0, 0,0, 0.15);
-  cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-}
-.project--section--card--content{
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-.project--section--title {
-  color: var(--heading-color);
-}
-.project--link {
-  text-decoration: none;
-  display: flex;
-  gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
-  font-weight: 600;
-}
-.project--section--card:hover path {
-  stroke: #00eaff;
-} */
 
 .project--section {
   display: flex;
   flex-direction: column;
-  padding: 40px 20px;
+  padding: 149.33px 85.33px;
   gap: 50px;
-  align-items: center; /* Center align items */
+  align-items: center;
 }
 
 .project--container-box {
@@ -865,17 +732,16 @@ h3{
 .project--container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align items */
+  align-items: center;
   gap: 20px;
   width: 100%;
 }
 
 .project--section--container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 80px;
   width: 100%;
-  /* Ensure cards fit into the grid container and have uniform sizing */
 }
 
 .project--section--card {
@@ -969,10 +835,15 @@ h3{
   }
 }
 
-.project--link:hover {
-  color: var(--primary);
+.livelink:hover {
+  font-size: 20px;
 }
-/* Project en/ */
+
+@media (max-width: 510px){
+
+}
+
+/* Project end */
 
 /* Contact me start */
 #contact {
