@@ -228,7 +228,7 @@ h3{
   justify-content: space-around;
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 40px;
   background-color: #009688;
   margin: 0px;
   padding: 0px;
@@ -542,7 +542,7 @@ h3{
 }
 @media (max-width: 510px) {
   .education--section {
-    padding: 50px 20px;
+    padding: 50px 30px;
   }
   
   .education--title {
@@ -842,8 +842,17 @@ h3{
 }
 
 @media (max-width: 510px){
+  .project--section{
+    padding: 50px 30px;
+    gap: 10px;
+  }
   .section--heading{
     font-size: 32px;
+    padding-bottom: 0px;
+    line-height: 32px;
+  }
+  .section--heading{
+    padding-bottom: 20px ;
   }
 }
 
