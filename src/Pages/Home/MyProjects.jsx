@@ -2,7 +2,7 @@ import project1 from '../img//Project1.png'
 import project2 from '../img//Project2.png'
 import project3 from '../img//Project3.png'
 import project4 from '../img//Project4.png'
-import project5 from '../img//Project5.png'
+import weather from '../img//Weather.png'
 import project6 from '../img//Project6.png'
 import project7 from '../img//Project7.png'
 import project8 from '../img//Project8.png'
@@ -145,7 +145,7 @@ export default function MyProjects() {
                     {/* Weather app */}
                     <div className="project--section--card">
                         <div className="project--section--img">
-                            <img src={project8} alt="placeholder" />
+                            <img src={weather} alt="placeholder" />
                             <div className="overlay-text">A weather app using API</div>
                         </div>
                         <div className="project--section--card--content">
