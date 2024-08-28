@@ -150,7 +150,7 @@ export default function MyProjects() {
                         </div>
                         <div className="project--section--card--content">
                             <div>
-                                <h3 className="project--section--title">TextUtils</h3>
+                                <h3 className="project--section--title">Weather Now</h3>
                                 <p className="text-md">React, OpenWeatherMAP API</p>
                             </div>
                             <div className='project--link'>
