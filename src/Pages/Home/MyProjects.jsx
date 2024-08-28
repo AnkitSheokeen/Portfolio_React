@@ -89,6 +89,7 @@ export default function MyProjects() {
                             </div>
                         </div>
                     </div>
+
                     {/* Linkdin clone */}
                     <div className="project--section--card">
                         <div className="project--section--img">
@@ -141,6 +142,58 @@ export default function MyProjects() {
                         </div>
                     </div>
 
+                    {/* Weather app */}
+                    <div className="project--section--card">
+                        <div className="project--section--img">
+                            <img src={project8} alt="placeholder" />
+                            <div className="overlay-text">A weather app using API</div>
+                        </div>
+                        <div className="project--section--card--content">
+                            <div>
+                                <h3 className="project--section--title">TextUtils</h3>
+                                <p className="text-md">React, OpenWeatherMAP API</p>
+                            </div>
+                            <div className='project--link'>
+                                <a href="https://github.com/AnkitSheokeen/TextUtils" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
+                                    View in github
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 20 19"
+                                    fill="none"
+                                    >
+                                    <path
+                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                                        stroke="currentColor"
+                                        stroke-width="2.66667"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    </svg>
+                                </a>
+                                <a href="https://ankitsheokeen.github.io/TextUtils/" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
+                                    Live
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 20 19"
+                                    fill="none"
+                                    >
+                                    <path
+                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                                        stroke="currentColor"
+                                        stroke-width="2.66667"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Expanse ease */}
                     <div className="project--section--card">
                         <div className="project--section--img">
@@ -172,6 +225,58 @@ export default function MyProjects() {
                                     </svg>
                                 </a>
                                 <a href="https://expensetrackerappas.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
+                                    Live
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 20 19"
+                                    fill="none"
+                                    >
+                                    <path
+                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                                        stroke="currentColor"
+                                        stroke-width="2.66667"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* TextUtils */}
+                    <div className="project--section--card">
+                        <div className="project--section--img">
+                            <img src={project8} alt="placeholder" />
+                            <div className="overlay-text">A multi Functional Text manipulation Web application</div>
+                        </div>
+                        <div className="project--section--card--content">
+                            <div>
+                                <h3 className="project--section--title">TextUtils</h3>
+                                <p className="text-md">HTML, CSS, JavaScript</p>
+                            </div>
+                            <div className='project--link'>
+                                <a href="https://github.com/AnkitSheokeen/TextUtils" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
+                                    View in github
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 20 19"
+                                    fill="none"
+                                    >
+                                    <path
+                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                                        stroke="currentColor"
+                                        stroke-width="2.66667"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    </svg>
+                                </a>
+                                <a href="https://ankitsheokeen.github.io/TextUtils/" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
                                     Live
                                     <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -400,111 +505,6 @@ export default function MyProjects() {
                             </div>
                         </div>
                     </div>
-
-                    {/* TextUtils */}
-                    <div className="project--section--card">
-                        <div className="project--section--img">
-                            <img src={project8} alt="placeholder" />
-                            <div className="overlay-text">A multi Functional Text manipulation Web application</div>
-                        </div>
-                        <div className="project--section--card--content">
-                            <div>
-                                <h3 className="project--section--title">TextUtils</h3>
-                                <p className="text-md">HTML, CSS, JavaScript</p>
-                            </div>
-                            <div className='project--link'>
-                                <a href="https://github.com/AnkitSheokeen/TextUtils" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
-                                    View in github
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                    >
-                                    <path
-                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                        stroke="currentColor"
-                                        stroke-width="2.66667"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    </svg>
-                                </a>
-                                <a href="https://ankitsheokeen.github.io/TextUtils/" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
-                                    Live
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                    >
-                                    <path
-                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                        stroke="currentColor"
-                                        stroke-width="2.66667"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Fresh BIte */}
-                    <div className="project--section--card">
-                        <div className="project--section--img">
-                            <img src={project5} alt="placeholder" />
-                            <div className="overlay-text">Built a cross-platform LinkedIn clone application featuring multiple functionalities of Linkedin app</div>
-                        </div>
-                        <div className="project--section--card--content">
-                            <div>
-                                <h3 className="project--section--title">Fresh Bite</h3>
-                                <p className="text-md">A e-commerce site for distributing food goods and convenience foods</p>
-                            </div>
-                            <div className='project--link'>
-                                <a href="https://github.com/AnkitSheokeen" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
-                                    View in github
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                    >
-                                    <path
-                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                        stroke="currentColor"
-                                        stroke-width="2.66667"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    </svg>
-                                </a>
-                                <a href="https://github.com/AnkitSheokeen" target="_blank" rel="noopener noreferrer" className="text-sn Project--link--live livelink">
-                                    Live
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
-                                    >
-                                    <path
-                                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                        stroke="currentColor"
-                                        stroke-width="2.66667"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
 
                 
                </div>
